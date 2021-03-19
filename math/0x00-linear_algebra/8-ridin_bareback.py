@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-
-mat_mul = __import__('8-ridin_bareback').mat_mul
-
-
 def mat_mul(mat1, mat2):
-
     result = []
     if len(mat1[0]) == len(mat2):
         for i in range(len(mat1)):
