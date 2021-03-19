@@ -1,7 +1,13 @@
-#!/usr/bin/env python3
-matrix_shape = __import__('2-size_me_please').matrix_shape
+#!/bin/usr/env python3
+
+
+
 def matrix_shape(matrix):
-   if type(matrix[0]) is not list:
-        return [len(matrix)]
-   else:
-        return [len(matrix)] + matrix_shape(matrix[0])
+
+    res = []
+
+    res.append(len(matrix))
+    res.append(len(matrix[0]))
+    if len(matrix[0]) > 2:
+        res.append(len(matrix[0][0]))
+    return (res)
