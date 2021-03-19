@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 def matrix_transpose(matrix):
     matrix_t = []
     m = len(matrix)
