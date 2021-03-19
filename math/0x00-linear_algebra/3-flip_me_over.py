@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-matrix_transpose = __import__('3-flip_me_over').matrix_transpose
 def matrix_transpose(matrix):
     matrix_t = []
     m = len(matrix)
